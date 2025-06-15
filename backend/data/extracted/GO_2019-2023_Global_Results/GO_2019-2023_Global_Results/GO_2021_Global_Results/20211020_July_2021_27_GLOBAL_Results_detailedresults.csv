@@ -1,0 +1,53 @@
+﻿Aggregated Auction Results;;;;;;;
+;;;;;;;
+Number of Participants to the Auction;27;;;;;;
+;;;;;;;
+Région / Region;Technologie / Technology;Total Volume Auctionned;Total Volume Sold;Weighted Average Price (€ / MWh);My Total Volume;My Weighted Average Price (€ / MWh);Number of winners per couple region/technology
+Auvergne-Rhône-Alpes;Eolien onshore;54577;54577;1,13;-;-;5
+Auvergne-Rhône-Alpes;Hydraulique;185357;185357;0,78;-;-;12
+Auvergne-Rhône-Alpes;Solaire;78519;78519;0,99;-;-;11
+Auvergne-Rhône-Alpes;Thermique;46015;46015;0,67;-;-;5
+Bourgogne-Franche-Comté;Eolien onshore;104479;104479;0,83;-;-;4
+Bourgogne-Franche-Comté;Hydraulique;29155;29155;0,76;-;-;3
+Bourgogne-Franche-Comté;Solaire;23205;23205;0,82;-;-;2
+Bourgogne-Franche-Comté;Thermique;24001;24001;0,65;-;-;2
+Bretagne;Eolien onshore;101875;101875;0,81;-;-;5
+Bretagne;Hydraulique;802;802;0,74;-;-;1
+Bretagne;Solaire;7959;7959;0,63;-;-;5
+Bretagne;Thermique;20987;20987;0,65;-;-;1
+Centre-Val de Loire;Eolien onshore;150543;150543;0,8;-;-;6
+Centre-Val de Loire;Hydraulique;3487;3487;0,74;-;-;2
+Centre-Val de Loire;Solaire;21971;21971;0,87;-;-;4
+Centre-Val de Loire;Thermique;24308;24308;0,65;-;-;2
+Grand Est;Eolien onshore;430669;430669;0,74;-;-;9
+Grand Est;Hydraulique;27509;27509;0,73;-;-;2
+Grand Est;Solaire;39432;39432;0,77;-;-;5
+Grand Est;Thermique;62269;62269;0,65;-;-;1
+Haut-de-France;Eolien onshore;502445;502445;0,72;-;-;14
+Haut-de-France;Hydraulique;1295;1295;0,72;-;-;2
+Haut-de-France;Solaire;10478;10478;0,99;-;-;3
+Haut-de-France;Thermique;52941;52941;0,65;-;-;1
+Île-de-France;Eolien onshore;9252;9251;0,72;-;-;2
+Île-de-France;Hydraulique;672;672;0,74;-;-;1
+Île-de-France;Solaire;3948;3948;0,83;-;-;5
+Île-de-France;Thermique;57774;57774;0,65;-;-;2
+Normandie;Eolien onshore;81975;81975;0,64;-;-;5
+Normandie;Hydraulique;5941;5941;0,72;-;-;1
+Normandie;Solaire;9063;9063;0,96;-;-;3
+Normandie;Thermique;35760;35760;0,61;-;-;1
+Nouvelle-Aquitaine;Eolien onshore;123103;123103;0,67;-;-;8
+Nouvelle-Aquitaine;Hydraulique;62989;62989;0,74;-;-;4
+Nouvelle-Aquitaine;Solaire;266021;266021;0,64;-;-;11
+Nouvelle-Aquitaine;Thermique;99126;99126;0,61;-;-;1
+Occitanie;Eolien onshore;182291;182291;0,64;-;-;4
+Occitanie;Hydraulique;87143;87143;0,73;-;-;3
+Occitanie;Solaire;210467;210467;0,63;-;-;6
+Occitanie;Thermique;45876;45876;0,65;-;-;4
+Pays de la Loire;Eolien onshore;127901;127901;0,64;-;-;7
+Pays de la Loire;Hydraulique;1126;1126;0,75;-;-;2
+Pays de la Loire;Solaire;31156;31156;0,73;-;-;5
+Pays de la Loire;Thermique;23855;23855;0,6;-;-;1
+Provence-Alpes-Côte d'Azur;Eolien onshore;10235;10235;0,83;-;-;1
+Provence-Alpes-Côte d'Azur;Hydraulique;37379;37379;0,73;-;-;3
+Provence-Alpes-Côte d'Azur;Solaire;187845;187845;0,67;-;-;11
+Provence-Alpes-Côte d'Azur;Thermique;56279;56279;0,62;-;-;5

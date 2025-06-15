@@ -1,0 +1,49 @@
+.winner-chart-container {
+  padding: 16px;
+  background: #0f172a;
+  border-radius: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.winner-chart-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #22d3ee;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.winner-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+.legend-color {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.winner-chart-scroll {
+  flex: 1;
+  overflow-x: auto;
+}
+
+.winner-chart-inner {
+  min-width: 900px;
+  height: 100%;
+}
