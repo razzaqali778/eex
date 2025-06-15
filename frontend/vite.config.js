@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://eex-1m07.onrender.com',
+      '/api': 'http://localhost:5000',
     },
   },
 })
