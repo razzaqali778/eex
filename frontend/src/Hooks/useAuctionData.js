@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 
+const apiUrl = import.meta.env.VITE_API_URL || '/api/auctions/all'
 export default function useAuctionData() {
   const [data, setData] = useState([])
   const [loading, setLoading] = useState(true)
@@ -8,7 +9,7 @@ export default function useAuctionData() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await fetch('/api/auctions/all')
+        const res = await fetch(apiUrl)
         const json = await res.json()
         setData(json.results || [])
       } catch (err) {
@@ -21,6 +22,8 @@ export default function useAuctionData() {
 
     fetchData()
   }, [])
+
+  console.log('data', data)
 
   return { data, loading, error }
 }
