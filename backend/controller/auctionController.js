@@ -11,6 +11,7 @@ exports.syncNewData = async (req, res) => {
 }
 
 exports.getAllAuctions = async (req, res) => {
+  res.set('Cache-Control', 'public, max-age=300')
   try {
     const result = await auctionService.getAllAuctions()
     res.json(result)

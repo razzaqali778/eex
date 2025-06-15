@@ -13,7 +13,7 @@ async function run() {
 
     const result = await AuctionModel.bulkWrite(workerData, { ordered: false })
 
-    console.log('🧵 Worker Result:', result)
+    console.log('Worker Result:', result)
 
     parentPort.postMessage({
       inserted: result.upsertedCount || 0,

@@ -6,6 +6,10 @@ const downloadAndParse = require('../scraper/downloadAndParse')
 const resultFilePath = path.join(__dirname, '..', 'data', 'result.json')
 const BATCH_SIZE = 1000
 
+let cache = null
+let cacheTime = 0
+const CACHE_DURATION = 60 * 1000
+
 async function syncNewData() {
   const data = await downloadAndParse()
   const indexedData = data.map((item, i) => ({ ...item, index: i + 1 }))
@@ -36,8 +40,14 @@ async function syncNewData() {
 }
 
 async function getAllAuctions() {
+  if (cache && Date.now() - cacheTime < CACHE_DURATION) {
+    return cache
+  }
   const allAuctions = await AuctionModel.find().sort({ publishedAt: -1 })
-  return { total: allAuctions.length, results: allAuctions }
+  const result = { total: allAuctions.length, results: allAuctions }
+  cache = result
+  cacheTime = Date.now()
+  return result
 }
 
 async function clearAuctions() {
