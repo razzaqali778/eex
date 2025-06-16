@@ -52,6 +52,15 @@ This monorepo contains both backend and frontend for managing and visualizing Fr
   <img src="./docs/responsive4.png" alt="Responsive View 4" width="40%" />
 </p>
 
+**Cron jobs**
+
+<p align="center">
+![image](https://github.com/user-attachments/assets/66503c33-73fc-40f3-8936-fe06ca31abbb)
+</p>
+
+
+
+
 ---
 
 ## 📦 Repository Structure
